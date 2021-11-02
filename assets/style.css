@@ -89,13 +89,25 @@ label {
 
 @media (max-width:560px) {
     .container {
+        overflow: hidden;
         margin: auto 30px;
         padding: 60px 50px;
     }
 }
-@media (max-width:400px) {
+@media (max-width:450px) {
     .container {
+        overflow: hidden;
         margin: auto 30px;
         padding: 60px 30px;
+    }
+    img {
+        margin-top: -60px;
+        width: 150px;
+    }
+}
+@media (max-width:395px) {
+    
+    img {
+        display: none;
     }
 }
